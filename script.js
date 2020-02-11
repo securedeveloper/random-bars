@@ -11,7 +11,8 @@ console.log({
     barSpeed,
     boxSize,
     randomFlip,
-    colorMode
+    colorMode,
+    borderSize
 })
 
 const startBarDrawing = () => {
