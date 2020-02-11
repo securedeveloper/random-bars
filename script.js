@@ -5,7 +5,7 @@ const barSpeed = urlParams.has('speed') ? Number(urlParams.get('speed')) : 10; /
 const boxSize = urlParams.has('size') ? Number(urlParams.get('size')) : 25;
 const randomFlip = urlParams.has('random') ? Boolean(JSON.parse(urlParams.get('random'))) : true;
 const colorMode = urlParams.has('colormode') ? Boolean(JSON.parse(urlParams.get('colormode'))) : true;
-const borderSize = Math.round((boxSize/10)+1)
+const borderSize = boxSize > 25 ? Math.round((boxSize / 10) + 1) : 1
 
 console.log({
     barSpeed,
