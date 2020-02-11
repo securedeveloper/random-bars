@@ -14,4 +14,4 @@ You may control the following by passing the query parameter:
 
 change the parameters values from the following URL to see it in action
 
-`https://securedeveloper.github.io/random-bars/?speed=10&size=25&random=1&colormode=1`
+https://securedeveloper.github.io/random-bars/?speed=10&size=10&random=0&colormode=1
